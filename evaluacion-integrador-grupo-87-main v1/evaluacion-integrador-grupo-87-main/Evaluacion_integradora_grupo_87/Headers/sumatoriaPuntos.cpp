@@ -2,20 +2,22 @@
 #include "sumatoriaPuntos.h"
 using namespace std;
 
-int sumarPuntos(int dadosSumadores[], int dadosBloqueadores[], int tam) {
-    int puntos = 0;
+int puntos = 0;
+int sumarPuntos(int dadosSumadores[], int dadosBloqueadores[], int tamSumadores, int tamBloqueadores) {
 
-    // Verificar cuáles dados en `dadosSumadores` están bloqueados
-    for (int i = 0; i < tam; i++) {
+    // Verificar cada dado en `dadosSumadores`
+    for (int i = 0; i < tamSumadores; i++) {
         bool dadoValido = true;
-        for (int j = 0; j < tam; j++) {
+
+        // Comprobar si el dado actual coincide con alguno de los dados bloqueadores
+        for (int j = 0; j < tamBloqueadores; j++) {
             if (dadosSumadores[i] == dadosBloqueadores[j]) {
-                dadoValido = false; // Marcar el dado como inválido si está bloqueado
+                dadoValido = false; // Marcar el dado como inválido si coincide con un bloqueador
                 break;
             }
         }
 
-        // Sumar solo los dados que están marcados como válidos
+        // Solo sumar el dado si es válido (no coincide con ningún bloqueador)
         if (dadoValido) {
             puntos += dadosSumadores[i];
         }

@@ -71,7 +71,7 @@
 1731176002 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\nombrejugador.h
 	<string>
 
-1731213758 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\unjugador.cpp
+1731251777 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\unjugador.cpp
 	<iostream>
 	"nombrejugador.h"
 	"dadosbloqueadores.h"
@@ -91,9 +91,9 @@
 
 1731194629 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\creditos.h
 
-1731213571 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\sumatoriapuntos.cpp
+1731247788 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\sumatoriapuntos.cpp
 	<iostream>
 	"sumatoriaPuntos.h"
 
-1731211902 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\sumatoriapuntos.h
+1731247744 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\sumatoriapuntos.h
 
