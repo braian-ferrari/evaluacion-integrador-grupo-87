@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1731162088 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\menu.cpp
+	<iostream>
+	"menu.h"
+	"unjugador.h"
+
+1731083338 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\menu.h
+
+1731164353 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\unjugador.cpp
+	<iostream>
+	"nombrejugador.h"
+	"dadosbloqueadores.h"
+	<ctime>
+
+1731165295 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\main.cpp
+	<iostream>
+	"Headers/menu.h"
+	"Headers/unjugador.h"
+
+1731082750 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\unjugador.h
+
+1731161949 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\nombrejugador.cpp
+	<iostream>
+	"nombreJugador.h"
+
+1731162262 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\nombrejugador.h
+	<string>
+
+1731164353 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\dadosbloqueadores.cpp
+	<iostream>
+	<ctime>
+	"dadosbloqueadores.h"
+
+1731163382 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\dadosbloqueadores.h
+
+1731165428 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\dadossumadores.cpp
+	<iostream>
+	"dadossumadores.h"
+	<ctime>
+
+1731165501 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\dadossumadores.h
+

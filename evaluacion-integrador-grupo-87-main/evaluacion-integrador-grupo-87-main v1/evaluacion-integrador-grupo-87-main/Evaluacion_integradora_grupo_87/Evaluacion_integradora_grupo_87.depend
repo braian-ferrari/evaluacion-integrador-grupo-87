@@ -1,0 +1,148 @@
+# depslib dependency file v1.0
+1731162088 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\menu.cpp
+	<iostream>
+	"menu.h"
+	"unjugador.h"
+
+1731083338 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\menu.h
+
+1731164353 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\unjugador.cpp
+	<iostream>
+	"nombrejugador.h"
+	"dadosbloqueadores.h"
+	<ctime>
+
+1731165295 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\main.cpp
+	<iostream>
+	"Headers/menu.h"
+	"Headers/unjugador.h"
+
+1731082750 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\unjugador.h
+
+1731161949 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\nombrejugador.cpp
+	<iostream>
+	"nombreJugador.h"
+
+1731162262 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\nombrejugador.h
+	<string>
+
+1731164353 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\dadosbloqueadores.cpp
+	<iostream>
+	<ctime>
+	"dadosbloqueadores.h"
+
+1731163382 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\dadosbloqueadores.h
+
+1731165428 source:c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\dadossumadores.cpp
+	<iostream>
+	"dadossumadores.h"
+	<ctime>
+
+1731165501 c:\users\brachu\desktop\evaluacion_integradora_grupo_87\headers\dadossumadores.h
+
+1731212278 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\dadosbloqueadores.cpp
+	<iostream>
+	<ctime>
+	"dadosbloqueadores.h"
+
+1731212427 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\dadosbloqueadores.h
+
+1731213758 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\dadossumadores.cpp
+	<iostream>
+	"dadossumadores.h"
+	<ctime>
+
+1731213758 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\dadossumadores.h
+
+1731197140 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\menu.cpp
+	<iostream>
+	"menu.h"
+	"unjugador.h"
+	"creditos.h"
+
+1731176002 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\menu.h
+
+1731176002 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\unjugador.h
+
+1731176002 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\nombrejugador.cpp
+	<iostream>
+	"nombreJugador.h"
+
+1731176002 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\nombrejugador.h
+	<string>
+
+1731251777 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\unjugador.cpp
+	<iostream>
+	"nombrejugador.h"
+	"dadosbloqueadores.h"
+	"dadossumadores.h"
+	"sumatoriaPuntos.h"
+	<ctime>
+
+1731195508 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\main.cpp
+	<iostream>
+	"Headers/menu.h"
+	"Headers/unjugador.h"
+	"headers/creditos.h"
+
+1731208163 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\creditos.cpp
+	<iostream>
+	"creditos.h"
+
+1731194629 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\creditos.h
+
+1731247788 source:c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\sumatoriapuntos.cpp
+	<iostream>
+	"sumatoriaPuntos.h"
+
+1731247744 c:\users\neptuno\onedrive\escritorio\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\sumatoriapuntos.h
+
+1731252910 source:c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\creditos.cpp
+	<iostream>
+	"creditos.h"
+
+1731252910 c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\creditos.h
+
+1731252910 source:c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\dadosbloqueadores.cpp
+	<iostream>
+	<ctime>
+	"dadosbloqueadores.h"
+
+1731252910 c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\dadosbloqueadores.h
+
+1731252910 source:c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\dadossumadores.cpp
+	<iostream>
+	"dadossumadores.h"
+	<ctime>
+
+1731252910 c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\dadossumadores.h
+
+1731252910 source:c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\menu.cpp
+	<iostream>
+	"menu.h"
+	"unjugador.h"
+	"creditos.h"
+
+1731252910 c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\menu.h
+
+1731252910 c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\unjugador.h
+
+1731252910 source:c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\nombrejugador.cpp
+	<iostream>
+	"nombreJugador.h"
+
+1731252910 c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\nombrejugador.h
+	<string>
+
+1731252910 source:c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\sumatoriapuntos.cpp
+	<iostream>
+	"sumatoriaPuntos.h"
+
+1731252910 c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\headers\sumatoriapuntos.h
+
+1731252910 source:c:\users\brachu\desktop\evaluacion-integrador-grupo-87-main\evaluacion-integrador-grupo-87-main v1\evaluacion-integrador-grupo-87-main\evaluacion_integradora_grupo_87\main.cpp
+	<iostream>
+	"Headers/menu.h"
+	"Headers/unjugador.h"
+	"headers/creditos.h"
+
