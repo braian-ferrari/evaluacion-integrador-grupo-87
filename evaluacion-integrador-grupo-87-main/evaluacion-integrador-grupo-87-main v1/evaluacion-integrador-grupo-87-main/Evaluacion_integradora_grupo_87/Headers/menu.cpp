@@ -2,6 +2,8 @@
 #include "menu.h"
 #include "unjugador.h"
 #include "creditos.h"
+#include "estadisticas.h"
+#include <string>
 
 using namespace std;
 
@@ -20,7 +22,9 @@ int seleccionDelUsuario() {
 }
 
 void procesarLaEleccion(int eleccionUsuario) {
-    switch (eleccionUsuario) {
+    string nombre;
+    int puntajeTotal;
+        switch (eleccionUsuario) {
         case 1:
            unJugador();
             break;
@@ -28,7 +32,8 @@ void procesarLaEleccion(int eleccionUsuario) {
             cout << "Modo dos jugadores seleccionado" << endl;
             break;
         case 3:
-            cout << "Estadísticas seleccionadas" << endl;
+            cout << "Estadisticas seleccionadas" << endl;
+             mostrarEstadisticas();
             break;
         case 4:
             mostrarCreditos();

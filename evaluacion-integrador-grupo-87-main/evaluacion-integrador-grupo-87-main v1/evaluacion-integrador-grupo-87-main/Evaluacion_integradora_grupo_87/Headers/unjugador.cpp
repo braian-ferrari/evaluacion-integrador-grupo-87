@@ -3,90 +3,53 @@
 #include "dadosbloqueadores.h"
 #include "dadossumadores.h"
 #include "sumatoriaPuntos.h"
+#include "cambioDeRonda.h"
+#include "estadisticas.h"
 #include <ctime>
 using namespace std;
 
 void unJugador()
 {
-    char seguirJugando = 's';
-    char eleccionUjugador;
-    int puntos;
+    char eleccionUjugador = 's';
     int puntosTotales = 0;
+    int puntosTotalesRondas = 0;
+    int puntajeTotal;
 
     cout << "Modo un jugador seleccionado" << endl;
     cout << "-------------------------------------" << endl;
 
     string nombre = nombreJugador();
 
-    // Generar los dados bloqueadores solo una vez
+    // Inicializar los arrays de dados bloqueadores
     int dadosBloqueados[5];
-    int tamBloqueados = 5; // Tamaño inicial del array de dados bloqueadores
-    dadosBloqueadores(dadosBloqueados); // Llenar el array de dados bloqueadores una vez
-
-    int tamActual = 5; // Tamaño actual del array de dados sumadores
+    int tamBloqueados = 5;
     cout << "--------------------------------------" << endl;
 
-    do
-    {
-        // Mostrar los dados bloqueadores actuales
-        cout << "DADOS BLOQUEADORES: "<<endl;
-        for (int i = 0; i < tamBloqueados; i++)
-        {
-            cout << dadosBloqueados[i] << " "<<endl;
-        }
-        cout << endl;
-        cout << "--------------------------------------" << endl;
+    // Repetir exactamente 3 rondas
+    for (int ronda = 1; ronda <= 3; ronda++) {
+        cout << "RONDA: " << ronda << endl;
 
-        // Generar dados sumadores solo para el tamaño actual
-        int dadosAsumar[5];
-        dadosSumadores(dadosAsumar, tamActual); // Llenar solo el número de dados activos
+        // Resetear puntos de la ronda actual y volver a 5 dados
+        puntosTotales = 0;
+        int tamActual = 5;
 
-        // Sumar puntos excluyendo los dados bloqueados
+        // Generar nuevos dados bloqueadores para la ronda actual
+        dadosBloqueadores(dadosBloqueados);
 
-        puntos = sumarPuntos(dadosAsumar, dadosBloqueados, tamActual, tamBloqueados);
+        // Llamar a cambioDeRonda para manejar la lógica de la ronda
+        cambioDeRonda(dadosBloqueados, tamBloqueados, tamActual, puntosTotales, eleccionUjugador, ronda);
 
-        // Crear un nuevo array para los dados sumadores restantes después de eliminar repetidos
-        int nuevosDados[5];
-        int nuevoTam = 0;
-
-        // Verificar dados que no se repiten para mantenerlos en el siguiente turno
-        for (int i = 0; i < tamActual; i++)
-        {
-            bool esRepetido = false;
-            for (int j = 0; j < tamBloqueados; j++)
-            {
-                if (dadosAsumar[i] == dadosBloqueados[j])
-                {
-                    esRepetido = true;
-                    break;
-                }
-            }
-            if (!esRepetido)
-            {
-                nuevosDados[nuevoTam++] = dadosAsumar[i];
-            }
-        }
-
-        // Actualizar el array de dados sumadores y el tamaño para la próxima ronda
-        for (int i = 0; i < nuevoTam; i++)
-        {
-            dadosAsumar[i] = nuevosDados[i];
-        }
-        tamActual = nuevoTam; // Actualizar el tamaño actual
-
-        cout << "Desea seguir jugando? (s/n): ";
-        cin >> eleccionUjugador;
-        puntosTotales = puntosTotales + puntos;
+        // Sumar los puntos de la ronda actual al total de todas las rondas
+        puntosTotalesRondas += puntosTotales;
     }
-    while (eleccionUjugador == seguirJugando && tamActual > 0);
 
-    cout<<"El jugador/a: "<<nombre<<" hizo "<<puntosTotales<<endl;
+    cout << "Finalizo el juego." << endl;
+    cout << "-------------------------------" << endl;
+    cout << "El jugador " << nombre << " hizo una totalidad de: " << puntosTotalesRondas << " puntos." << endl;
 
+    puntajeTotal = puntosTotalesRondas;
 
-    if (tamActual == 0)
-    {
-        cout << "Todos los dados han sido eliminados. Fin del juego." << endl;
-    }
+    // Registrar el puntaje total en las estadísticas
+    estadisticas(nombre, puntajeTotal);
+
 }
-
-

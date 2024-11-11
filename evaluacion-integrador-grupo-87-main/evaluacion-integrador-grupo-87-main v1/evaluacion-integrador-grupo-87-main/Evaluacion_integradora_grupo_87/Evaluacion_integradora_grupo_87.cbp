@@ -32,12 +32,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Headers/cambioDeRonda.cpp" />
+		<Unit filename="Headers/cambioDeRonda.h" />
 		<Unit filename="Headers/creditos.cpp" />
 		<Unit filename="Headers/creditos.h" />
 		<Unit filename="Headers/dadosbloqueadores.cpp" />
 		<Unit filename="Headers/dadosbloqueadores.h" />
 		<Unit filename="Headers/dadossumadores.cpp" />
 		<Unit filename="Headers/dadossumadores.h" />
+		<Unit filename="Headers/estadisticas.cpp" />
+		<Unit filename="Headers/estadisticas.h" />
 		<Unit filename="Headers/menu.cpp" />
 		<Unit filename="Headers/menu.h" />
 		<Unit filename="Headers/nombrejugador.cpp" />

@@ -1,4 +1,5 @@
 #include<iostream>
+#include <string>
 #include "nombreJugador.h"
 
 using namespace std;
